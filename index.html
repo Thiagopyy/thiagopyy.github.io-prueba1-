@@ -60,6 +60,8 @@
         <li><a href="#" onclick="mostrarSeccion('hardware')">Hardware</a></li>
         <li><a href="#" onclick="mostrarSeccion('software')">Software</a></li>
         <li><a href="#" onclick="mostrarSeccion('arduino')">Arduino</a></li>
+        <li><a href="#" onclick="mostrarSeccion('mantenimiento')">Mantenimiento Preventivo</a></li>
+        <li><a href="#" onclick="mostrarSeccion('sobre-nosotros')">Sobre Nosotros</a></li>
         <li><a href="#" onclick="mostrarSeccion('sobre-nosotros')">Sobre Nosotros</a></li>
     </ul>
 </div>
@@ -244,6 +246,67 @@
             </ul>
         </section>
     </section>
+    <section id="mantenimiento" class="content" style="display:none;">
+    <h1>Mantenimiento Preventivo</h1>
+    <p>El mantenimiento preventivo es un conjunto de acciones que se realiza a la computadora para prevenir fallos y prolongar su vida útil.</p>
+
+    <div class="submenu-container">
+        <button class="submenu" onclick="mostrarSubseccion('pasos')">Pasos del Mantenimiento</button>
+        <button class="submenu" onclick="mostrarSubseccion('factores')">Factores Externos</button>
+        <button class="submenu" onclick="mostrarSubseccion('seguridad')">Medidas de Seguridad</button>
+        <button class="submenu" onclick="mostrarSubseccion('herramientas')">Herramientas Básicas</button>
+    </div>
+
+    <!-- Pasos del Mantenimiento -->
+    <section id="pasos" class="subcontent" style="display:none;">
+        <h2>Pasos para el Mantenimiento Preventivo</h2>
+        <ul>
+            <li>Limpieza interna de la PC</li>
+            <li>Revisar los conectores</li>
+            <li>Limpieza del monitor</li>
+            <li>Atender el mouse y teclado</li>
+            <li>Limpiar la superficie de la PC y sus periféricos</li>
+        </ul>
+    </section>
+
+    <!-- Factores Externos -->
+    <section id="factores" class="subcontent" style="display:none;">
+        <h2>Factores Externos Peligrosos para la PC</h2>
+        <ul>
+            <li><strong>El polvo:</strong> Puede acumularse dentro de la computadora, obstruyendo ventiladores y otros componentes.</li>
+            <li><strong>Líquidos y humedad:</strong> Pueden causar daños inmediatos al crear cortocircuitos en la placa base.</li>
+            <li><strong>Magnetismo:</strong> Los campos magnéticos pueden alterar o borrar datos almacenados en discos duros.</li>
+        </ul>
+    </section>
+        
+    <!-- Medidas de Seguridad -->
+    <section id="seguridad" class="subcontent" style="display:none;">
+        <h2>Medidas de Seguridad para el Mantenimiento</h2>
+        <ul>
+            <li>No portar anillos y joyas.</li>
+            <li>Utilizar una pulsera antiestática para prevenir descargas eléctricas.</li>
+            <li>Usar vestimenta de algodón.</li>
+            <li>Desenchufar siempre la computadora.</li>
+            <li>No forzar las conexiones.</li>
+            <li>No jugar con los cables.</li>
+            <li>Utilizar herramientas adecuadas.</li>
+            <li>Organizar los componentes desarmados en secuencia.</li>
+        </ul>
+    </section>
+
+    <!-- Herramientas Básicas -->
+    <section id="herramientas" class="subcontent" style="display:none;">
+        <h2>Herramientas Básicas para el Mantenimiento</h2>
+        <ul>
+            <li>Destornilladores</li>
+            <li>Libreta y lápiz</li>
+            <li>Goma de borrar</li>
+            <li>Hisopo</li>
+            <li>Brocha</li>
+            <li>Pinza de punta</li>
+        </ul>
+    </section>
+</section>
 
     <!--Seccion sobre nosotros -->
      <section id="sobre-nosotros" class="content" style="display: none;">
